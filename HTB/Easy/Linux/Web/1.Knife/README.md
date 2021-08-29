@@ -76,7 +76,7 @@ Now, We can see: ***X-Powered-By: PHP/8.1.0-dev*** in reponse.
 
 I googled it and came up with this blog post: [PHP verion 8.1.0-dev](https://flast101.github.io/php-8.1.0-dev-backdoor-rce/)
 
-![](5.PHP verion 8.1.0-dev.png?raw=true)
+![](5.PHP_verion_8.1.0-dev.png?raw=true)
 
 So, We can probably set the **User-Agentt** header like this:
 
