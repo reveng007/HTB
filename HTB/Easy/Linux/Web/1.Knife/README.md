@@ -64,6 +64,8 @@ I got nothing juicy, except the supported extension of the webserver.
 #### 4. I then, went to burp suit to capture request
 ----------
 
+Lets send the captured request to the repeater.
+
 ![](3.capturing_request.png?raw=true)
 
 Lets send the request to inspector, shall we ?
@@ -109,13 +111,14 @@ response = request.get(host, headers = headers, allow_redirects = False)
 
 This would do nothing but add another header to the requests, which would help us to perform _OS command injection_
 
-------
+
 Oh!, one thing if you want to get a stable shell, you can login to this machine via _ssh_ as ssh was running...
 **Firstly**, you can copy the ssh key (id_rsa) from .ssh directory and paste it in your local attacker machine within a file.
 **Secondly**, modify the file permission, `chmod 600 <filename>`
 **Thirdly**, `ssh -i <filename> james@<ip>` - to automatically login to the victim machine as _james_ user.
 If this requires any password, do this: `mv id_rsa.pub key authorized_keys` this make the key authorized and usable. Now repeat the all three steps.
-------
+
+
 
 So, now we get the _user_flag_
 
@@ -138,9 +141,9 @@ We can now use, [GTFOBins](https://gtfobins.github.io/) to get _priv_esc_ comman
 
 So, now we got the root flag...
 
-This is it for now, if you have any queries, suggestions (tbh, I'm open to all types of comments), please contact me here:
-[linkedin](https://www.linkedin.com/in/soumyanil-biswas/)
-[twitter](https://twitter.com/reveng007)
+This is it for now, if you have any queries, suggestions (tbh, I'm open to all type of comments), please contact me here:
+- [linkedin](https://www.linkedin.com/in/soumyanil-biswas/)
+- [twitter](https://twitter.com/reveng007)
 
-Meet, all of you in the next blog, until then, Bye..!!!
+Meet, all of you in the next blog, until then, Bye 👋..!!!
 
