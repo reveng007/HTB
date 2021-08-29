@@ -109,8 +109,7 @@ headers = {
 response = request.get(host, headers = headers, allow_redirects = False)
 ```
 
-This would do nothing but add another header to the requests, which would help us to perform _OS command injection_
-
+This would do nothing but add another header to the requests named,_`"User-Agentt": "zerodiumsystem('" + cmd + "');"`_ which would help us to perform _OS command injection_
 
 Oh!, one thing if you want to get a stable shell, you can login to this machine via _ssh_ as ssh was running...
 **Firstly**, you can copy the ssh key (id_rsa) from .ssh directory and paste it in your local attacker machine within a file.
