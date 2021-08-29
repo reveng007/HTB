@@ -1,6 +1,6 @@
 ![](0.profile_pic.png?raw=true)
 
-1. nmap:
+#### 1. nmap:
 --------
 
 Port:
@@ -32,7 +32,7 @@ PORT   STATE SERVICE REASON         VERSION
 |_http-title:  Emergent Medical Idea
 ```
 
-2. Went to corresonding [ip] website, to see what we can find...
+#### 2. Went to corresonding [ip] website, to see what we can find...
 --------------------
 
 Found nothing...
@@ -50,7 +50,7 @@ https://user-images.githubusercontent.com/61424547/131264327-759221c8-e833-442c-
 
 So, now we can use this _php extension_ in gobuster bruteforcing command
 
-2. gobuster:
+#### 3. gobuster:
 -----------
 ```
 gobuster dir -u http://10.10.10.242:80 -w /usr/share/wordlists/dirbuster/directory-list-2.3-small.txt -x php
@@ -61,7 +61,7 @@ It only gave one output file named: `index.php`
 I got nothing juicy, except the supported extension of the webserver.
 
 
-3. I then, went to burp suit to capture request
+#### 4. I then, went to burp suit to capture request
 ----------
 
 ![](3.capturing_request.png?raw=true)
