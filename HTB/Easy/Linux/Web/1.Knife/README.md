@@ -43,7 +43,7 @@ Now I was going to run ***gobuster***, but what we can narrow down directory bru
 
 - ![](1.find_supported_server_extension.png?raw=true)
 
-- 2.find_supported_server_extension.mp4
+- https://github.com/reveng007/HTB_and_P.testerLab/blob/main/HTB/Easy/Linux/Web/1.Knife/2.find_supported_server_extension.mp4
 
 So, now we can use this _php extension_ in gobuster bruteforcing command
 
