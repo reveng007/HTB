@@ -1,5 +1,11 @@
 ![](0.profile_pic.png?raw=true)
 
+Hey, this is actually my 1st HTB box write-up as well as box. It is actually an _easy_ marked box. I thought that of getting used to writing reports. As I once heared by one of my interviewer, "Testers are not payed for hacking. They have to hack stuff nearly for free, they get payed only for their report writing skills." For this reason, I came up with this easy box, so that we can move our focus more on ***report writing*** rather than tersting.
+
+So, what are you waiting for?
+
+As always, I started testing by scanning the ports with nmap and found out this.
+
 #### 1. nmap:
 --------
 
@@ -139,6 +145,8 @@ We can now use, [GTFOBins](https://gtfobins.github.io/) to get _priv_esc_ comman
 ![](10.root_flag.png?raw=true)
 
 So, now we got the root flag...
+
+Link to my report: [Report](https://docs.google.com/document/d/1aHbwQkNBxTsbXFTdsa9iHAaOxjY7efREyHJbgDGJmkE/edit?usp=sharing)
 
 This is it for now, if you have any queries, suggestions (tbh, I'm open to all type of comments), please contact me here:
 - [linkedin](https://www.linkedin.com/in/soumyanil-biswas/)
