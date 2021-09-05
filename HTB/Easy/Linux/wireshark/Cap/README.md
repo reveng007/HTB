@@ -32,7 +32,7 @@ It contained a `0.pcap` file which contained username and password
 
 Used ***linpeas.sh*** to get _priv_esc_ vector:
 
-![](linpeas.sh?raw=true)
+![](linpeas1.png?raw=true)
 
 python3.8 has _CAP_SETUID_ capabilty
 
